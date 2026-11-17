@@ -1,3 +1,17 @@
+## CMPE 48A term project
+
+This fork is our term project for CMPE 48A (Cloud Computing) at Boğaziçi University, Fall 2026.
+
+Team: Alper Vural, İbrahim Fırat Yoğurtçi
+
+We are moving the Social Empires server to Google Cloud and load-testing it with Locust to find where it slows down. The plan for Phase 1: game servers on Kubernetes (GKE), the player database (Redis) on a Compute Engine VM, game files in Cloud Storage, and two Cloud Run functions.
+
+We start from the `nerroth-rewrite` branch of [AcidCaos/socialemperors](https://github.com/AcidCaos/socialemperors), which is the default branch of this fork. Our deployment files and test scripts will be added here as we build them.
+
+The original project README continues below.
+
+---
+
 ![Social Empires](templates/img/logo.png "Social Empires logo")
 
 The Social Empires preservation project by the Social Emperors team.
